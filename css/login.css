@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/bg-1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    position: absolute;
+    top:3rem;
+    margin-left: -4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 10rem;
+    margin-right: 2rem;
+}
+h2{
+    text-align: center;
+    font-size: 2.3rem;
+}
+h3{
+    font-size: 3rem;
+}
+.form-container {
+    background-color: #fff;
+    padding: 5rem;
+    border-bottom-right-radius: 8rem;
+    border-top-left-radius: 8rem;
+    border-bottom-left-radius: 4rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:40rem;
+    margin-top: 10rem;
+    animation-name : colorChange;
+    animation-duration: 3s; 
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    transition: all 1s ease-in-out ;
+}
+@keyframes colorChange{
+    0%{
+        filter: drop-shadow(0 0 0);
+    }
+    25%{
+        filter: drop-shadow(2px 2px 1px rgb(121, 121, 247));
+    }
+    50%{
+        filter: drop-shadow(2px 2px 1px rgb(121, 121, 247));
+    }
+    75%{
+        filter: drop-shadow(-2px -1px 1px rgb(121, 121, 247));
+    }
+    100%{
+        filter: drop-shadow(0 -2px 1px rgb(121, 121, 247));
+    }
+}
+input {
+    width: 80%;
+    padding: 1.2rem;
+    margin:1.5rem;
+    text-align: center;
+    margin-left: 2.6rem;
+    font-size: 1.4rem;
+    outline: none;
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 2rem;
+    transition: all 1s linear 0;
+}
+input:focus{
+    border: 1.5px solid blue;
+    caret-color: blue;
+}
+button {
+    padding: 1.7rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    width: 17rem;
+    position: relative;;
+    left:12rem;
+    background-color: #4e77df;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    transition: all 1s ease-in-out 0;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(31, 31, 152);
+}
+
+/* Root font size for scalable typography */
+
+
+/* Responsive Design */
+
+/* Small devices (up to 575px, small phones) */
+@media (max-width: 575px) {
+    html {
+        font-size: 50%; /* Scale down for small devices */
+    }
+
+    img {
+        width: 6rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .form-container {
+        padding: 2rem;
+        width: 90%;
+        max-width: none;
+    }
+
+    button {
+        padding: 1.3rem;
+        font-size: 1.4rem;
+    }
+}
+
+/* Medium devices (576px - 991px, tablets) */
+@media (min-width: 576px) and (max-width: 991px) {
+    html {
+        font-size: 55%; /* Scale down for tablets */
+    }
+
+    h3 {
+        font-size: 2.3rem;
+    }
+
+    h2 {
+        font-size: 2.1rem;
+    }
+
+    .form-container {
+        width: 80%;
+        padding: 2.5rem;
+    }
+}
+
+/* Large devices (992px - 1199px, laptops/desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    html {
+        font-size: 60%;
+    }
+
+    h3 {
+        font-size: 2.6rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+
+    .form-container {
+        padding: 3.5rem;
+        width: 70%;
+        max-width: 50rem;
+    }
+}
+
+/* Extra large devices (1200px and up, large screens/TVs) */
+@media (min-width: 1200px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    .form-container {
+        padding: 4rem;
+        max-width: 55rem;
+    }
+
+    img {
+        width: 10rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+}
+
+

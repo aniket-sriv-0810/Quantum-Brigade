@@ -1,0 +1,52 @@
+/* Mentor card styles */
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.mentor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 7rem;
+}
+
+.mentor-card {
+    background-color: #ffffff;
+   border-radius: 40px;
+    padding: 20px;
+    animation-name : colorChange;
+    animation-duration: 3s; 
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    transition: all 1s ease-in-out ;
+}
+@keyframes colorChange{
+    0%{
+        filter: drop-shadow(0 0 0);
+    }
+    25%{
+        filter: drop-shadow(2px 2px 1px rgb(78, 162, 215));
+    }
+    50%{
+        filter: drop-shadow(2px 2px 1px  rgb(78, 162, 215));
+    }
+    75%{
+        filter: drop-shadow(-2px -1px 1px rgb(78, 162, 215));
+    }
+    100%{
+        filter: drop-shadow(0 -2px 1px  rgb(78, 162, 215));
+    }
+}
+
+.mentor-card h2{
+    text-align: center;
+}
+.mentor-card p{
+    text-align: center;
+}
+.mentor-card img {
+    width: 100%;
+   filter: drop-shadow(2px 2px 2px rgb(72, 72, 72));
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}

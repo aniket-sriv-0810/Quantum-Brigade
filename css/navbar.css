@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html{
+    font-size: 62.5%;
+}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1783c6;
+    color: #ffffff;
+    padding: 2rem 0;
+}
+.first{
+    position: absolute;
+    left:10rem;
+    top:0.7rem
+}
+.last{
+    position: absolute;
+    right:10rem;
+}
+.last button{
+    width: 16rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    animation-name : colorChange;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorChange{
+    0%{
+        filter: drop-shadow(0 0 0);
+    }
+    25%{
+        filter: drop-shadow(2px 2px 1px rgb(235, 235, 235));
+    }
+    50%{
+        filter: drop-shadow(2px 2px 1px rgb(229, 235, 230));
+    }
+    75%{
+        filter: drop-shadow(-2px -2px 1px rgb(229, 231, 229));
+    }
+    100%{
+        filter: drop-shadow(0 -2px 1px rgb(231, 231, 231));
+    }
+}
+.last :hover{
+    background-color: rgb(10, 10, 104) !important;
+    color: #fbbf24 !important;
+}
+.first img{
+    width:8rem;
+}
+.first img:hover{
+    border: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 4rem;
+}
+nav ul li :hover{
+    color: #fbbf24;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.9rem;
+}
+
+nav ul li a.active {
+    /* font-weight: bold; */
+    color:yellowgreen;
+}
