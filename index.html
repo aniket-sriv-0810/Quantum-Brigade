@@ -3,40 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SLIET Mentorship Platform</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Register</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="mentors.html">Mentors</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-                <li><a href="booking.html">Book a Session</a></li>
-                <!-- <li><a href="login.html">Login</a></li> -->
-                <li><a href="#" id="logoutButton">Logout</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="form-container">
+        <h2>Register</h2>
+        <form id="registerForm">
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+            <input type="password" id="password" placeholder="Enter your password" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
 
-    <main>
-        <h1>Welcome to SLIET Mentorship Platform</h1>
-        <p>Connect with SLIET faculty members for personalized guidance on your academic and career journey.</p>
-        <h2>How it works:</h2>
-        <ol>
-            <li>Browse our list of mentors</li>
-            <li>Choose a mentor based on your needs</li>
-            <li>Book a session at a time that suits you</li>
-            <li>Attend your mentoring session and get valuable insights</li>
-        </ol>
-        <a href="booking.html" class="cta-button">Book a Session Now</a>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 SLIET Mentorship Platform. All rights reserved.</p>
-    </footer>
-
-    <script src="js/script.js"></script>
+    <script>
+        document.getElementById('registerForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get values from form
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            
+            // Save name and email to localStorage
+            localStorage.setItem('name', name);
+            localStorage.setItem('email', email);
+            
+            // Redirect to home page
+            window.location.href = '/pages/home.html';
+        });
+    </script>
 </body>
 </html>

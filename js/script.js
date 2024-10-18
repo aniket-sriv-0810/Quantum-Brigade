@@ -1,36 +1,3 @@
-// script.js
-
-// Basic Authentication
-function authenticateUser(username, password) {
-    // In a real application, this would check against a database
-    return username === 'student' && password === 'password';
-}
-
-function checkAuthentication() {
-    const authHeader = localStorage.getItem('authHeader');
-    if (!authHeader) {
-        window.location.href = 'login.html';
-        return false;
-    }
-    return true;
-}
-
-// Login form submission
-const loginForm = document.getElementById('loginForm');
-if (loginForm) {
-    loginForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        const username = document.getElementById('username').value;
-        const password = document.getElementById('password').value;
-        if (authenticateUser(username, password)) {
-            const authHeader = btoa(username + ':' + password);
-            localStorage.setItem('authHeader', authHeader);
-            window.location.href = 'index.html';
-        } else {
-            alert('Invalid username or password');
-        }
-    });
-}
 
 // Logout functionality
 const logoutButton = document.getElementById('logoutButton');
@@ -72,6 +39,6 @@ if (timeSlots.length > 0) {
 document.addEventListener('DOMContentLoaded', function() {
     const currentPage = window.location.pathname.split('/').pop();
     if (currentPage !== 'login.html') {
-        checkAuthentication();
+        // checkAuthentication();
     }
 });
