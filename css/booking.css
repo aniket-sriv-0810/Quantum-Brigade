@@ -1,0 +1,100 @@
+body
+{
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y:2rem ;
+    background-image: url('../images/bg-img.jpg');
+}
+/* Booking styles */
+h1{
+    text-align: center;
+}
+
+/* Form styles */
+form {
+    filter: drop-shadow(2px 2px 2px black);
+    margin: 2rem;
+    background-color: #e9eaeb;
+    padding: 3rem;
+    border-radius: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#selectbox{
+    width: 80%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 20px;
+}
+input[type="date"]{
+    width: 50%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 20px;
+    border: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.time-slot {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.time-slot.booked {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+.time-slot.selected {
+    background-color: #35424a;
+    color: #ffffff;
+}
+
+/* Add this to your existing CSS file */
+
+.time-slot {
+    display: inline-block;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.time-slot.booked {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+.time-slot.selected {
+    background-color: #35424a;
+    color: #ffffff;
+}
+#topic{
+    resize: none;
+    border-radius:20px ;
+    font-size: 1.7rem;
+    width: 80%;
+}
+#book-btn{
+    width: 20rem;
+    padding: 2rem;
+    font-size: 1.7rem;
+    border-radius: 20px;
+    background-color: rgb(110, 110, 163);
+    transition: all 1s ease-in-out;
+}
+#book-btn:hover{
+    cursor: pointer;
+    background-color: green;
+}

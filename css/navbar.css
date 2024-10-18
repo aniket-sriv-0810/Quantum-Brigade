@@ -15,7 +15,7 @@ body {
 header {
     background-color: #1783c6;
     color: #ffffff;
-    padding: 2rem 0;
+    padding: .8rem 0;
 }
 .first{
     position: absolute;
@@ -58,7 +58,9 @@ header {
     color: #fbbf24 !important;
 }
 .first img{
-    width:8rem;
+    background-color: white;
+    border-radius: 50%;
+    width:6rem;
 }
 .first img:hover{
     border: none;

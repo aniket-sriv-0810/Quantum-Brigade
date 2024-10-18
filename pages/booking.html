@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="website icon" type="jpeg/png" href="../images/sliet_logo-removebg-preview.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../css/booking.css">
     <link rel ="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/navbar.css">
 </head>
@@ -22,9 +23,10 @@
 
     <main>
         <h1>Book a Mentoring Session</h1>
+        <div class="book-form">
         <form id="bookingForm">
-            <label for="mentor">Select a Mentor:</label>
-            <select id="mentor" name="mentor" required>
+            <label for="mentor">Select a Mentor</label>
+            <select id="selectbox" id="mentor" name="mentor" required>
                 <option value="">Choose a mentor</option>
                 <option value="birmohan">Dr. Birmohan Singh</option>
                 <option value="damanpreet">Dr. Damanpreet Singh</option>
@@ -48,8 +50,9 @@
             <label for="topic">Topic for Discussion:</label>
             <textarea id="topic" name="topic" rows="4" required></textarea>
 
-            <button type="submit">Book Session</button>
+            <button id="book-btn" type="submit">Book Session</button>
         </form>
+        </div>
     </main>
 
     <footer>
