@@ -2,9 +2,10 @@
 html{
     font-size: 62.5%;
 }
+
 /* General styles */
 body {
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
     font-size: 1.6rem;
     line-height: 1.6;
     margin: 0;
