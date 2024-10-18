@@ -13,12 +13,18 @@ h1 {
 footer {
     background-color: #35424a;
     color: #ffffff;
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
+    text-align: left;
+    padding: 1px;
     width: 100%;
 }
+footer p{
+    padding-left: 2rem;
+}
+span{
+    position: absolute;
+    right: 40rem;
+}
+
 
 /* Form styles */
 form {
