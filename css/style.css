@@ -15,6 +15,8 @@ footer {
     background-color: #35424a;
     color: #ffffff;
     text-align: left;
+    display: flex;
+    justify-content: center;
     padding: 1px;
     width: 100%;
 }
