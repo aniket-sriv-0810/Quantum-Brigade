@@ -81,7 +81,7 @@ button:hover {
 }
 
 .time-slot.selected {
-    background-color: #35424a;
+    background-color: yellowgreen;
     color: #ffffff;
 }
 
@@ -103,7 +103,7 @@ button:hover {
 }
 
 .time-slot.selected {
-    background-color: #35424a;
+    background-color: yellowgreen;
     color: #ffffff;
 }
 
