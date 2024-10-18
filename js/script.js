@@ -5,7 +5,7 @@ if (logoutButton) {
     logoutButton.addEventListener('click', function(e) {
         e.preventDefault();
         localStorage.removeItem('authHeader');
-        window.location.href = 'login.html';
+        window.location.href = '../index.html';
     });
 }
 
