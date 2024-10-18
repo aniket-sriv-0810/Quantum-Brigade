@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="mentors">
+        <h2 class="section-title">Meet Our Mentors</h2>
+        <div class="mentor-grid">
+            <div class="mentor-card">
+                <img src="profile-placeholder.jpg" alt="Dr. John Doe" class="mentor-img">
+                <div class="mentor-info">
+                    <h3>Dr. John Doe</h3>
+                    <p>Expertise: Machine Learning, AI</p>
+                    <p>Available: 9:00 AM - 10:00 AM, 11:00 AM - 12:00 PM</p>
+                    <button class="book-slot">Book a Slot</button>
+                </div>
+            </div>
+            <!-- More mentor cards -->
+        </div>
+    </section>
+    <section id="booking-system">
+        <h2 class="section-title">Book a Session</h2>
+        <div class="timeslot-grid">
+            <div class="timeslot" data-available="true">
+                <button class="available-slot">9:00 AM - 10:00 AM</button>
+            </div>
+            <div class="timeslot" data-available="false">
+                <button class="booked-slot" disabled>10:00 AM - 11:00 AM</button>
+            </div>
+            <!-- More time slots -->
+        </div>
+    </section>
+    <section id="chat-system">
+        <h2 class="section-title">Chat with Mentor</h2>
+        <div class="chat-box">
+            <div class="chat-message student">
+                <p>Hello, I have a question about AI.</p>
+                <span class="chat-time">10:30 AM</span>
+            </div>
+            <div class="chat-message mentor">
+                <p>Sure, feel free to ask.</p>
+                <span class="chat-time">10:32 AM</span>
+            </div>
+            <!-- More chat messages -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="chat-input" placeholder="Type your message...">
+            <button id="send-btn">Send</button>
+        </div>
+    </section>
+    <div class="modal" id="booking-success-modal">
+        <p>Session booked successfully!</p>
+        <button id="close-modal">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

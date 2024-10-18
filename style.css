@@ -1,0 +1,162 @@
+.mentor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.mentor-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.mentor-card:hover {
+    transform: translateY(-5px);
+}
+
+.mentor-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.mentor-info h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.mentor-info p {
+    margin-bottom: 8px;
+    font-size: 0.9em;
+}
+
+.book-slot {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-slot:hover {
+    background-color: #218838;
+}
+
+.timeslot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.available-slot, .booked-slot {
+    padding: 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.available-slot {
+    background-color: #28a745;
+    color: white;
+}
+
+.booked-slot {
+    background-color: #dc3545;
+    color: white;
+    cursor: not-allowed;
+}
+
+.available-slot:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+.chat-box {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    max-width: 80%;
+}
+
+.chat-message.student {
+    background-color: #d1ecf1;
+    margin-left: auto;
+}
+
+.chat-message.mentor {
+    background-color: #f8d7da;
+}
+
+.chat-time {
+    font-size: 0.8em;
+    color: #666;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.chat-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+#chat-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#send-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #0056b3;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal.active {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .mentor-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .timeslot-grid {
+        grid-template-columns: 1fr;
+    }
+}
