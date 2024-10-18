@@ -1,5 +1,4 @@
 
-
 main {
     padding: 2rem;
     max-width: 800px;
@@ -23,8 +22,12 @@ footer p{
 span{
     position: absolute;
     right: 40rem;
+    margin-right: -30rem;
 }
-
+#icons{
+    margin-left:2rem ;
+    font-size: 30px;
+}
 
 /* Form styles */
 form {
