@@ -1,8 +1,4 @@
 
-
-
-
-
   // Function to render mentors dynamically
   function renderMentors() {
     const mentorGrid = document.getElementById('mentorGrid');

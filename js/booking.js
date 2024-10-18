@@ -1,10 +1,4 @@
 const selectedMentor = document.getElementById('mentor');
-// console.log(selectedMentor);
-
-// const handleTimeSlotClick = (x)=>{
-//     console.log(x.target);
-// }
-// console.log(mentors);
 const ts = {
     "a": "9:30-10:30",
     "b": "10:30-11:30",
@@ -35,15 +29,5 @@ selectedMentor.addEventListener('change',(x)=>{
         }
         
     }
-    // for(let i=0;i<s.length;i++){
-    //     console.log(s[i]);
-    //     if(r[0].timeSlot.includes(s[i])){
-    //         document.getElementById(s[i]).classList.remove('unavailable');
-    //     }
-    //     else{
-    //         document.getElementById(s[i]).classList.add('unavailable');
-    //         document.getElementById(s[i]).style.pointerEvents = "none";
 
-    //     }
-    // }
 })
