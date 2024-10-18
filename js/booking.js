@@ -13,8 +13,9 @@ const ts = {
     "e": "2:30-3:30",
     "f": "3:30-4:30"
 };
-
+console.log(selectedMentor);
 for(let i=0;i<mentors.length;i++){
+
     const option = document.createElement('option');
     option.value = mentors[i].name;
     option.textContent = mentors[i].name;
