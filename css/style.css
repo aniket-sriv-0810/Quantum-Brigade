@@ -104,3 +104,56 @@ button:hover {
 #logoutButton {
     cursor: pointer;
 }
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section h1 {
+    position: absolute;
+    top: 20px;  /* Adjust the value to move the text further from the top */
+    right: 20px;  /* Adjust the value to move the text further from the right */
+    color: white;
+    font-size: 3rem; /* Adjust font size as needed */
+    z-index: 1; /* Make sure the text stays above the background */
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); Optional: Overlay for readability */
+    z-index: 0;
+}
+
+.hidden {
+    display: none; /* Hide the actual <img> tag */
+}
+.get-started-button {
+    display: inline-block;
+    height: 70px;
+    width: 700px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px !important;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+     top: 590px;/* Adjust as needed */
+    left: 970px; 
+}
+
+
+.get-started-button:hover {
+    background-color: #008ecc; /* Slightly darker blue on hover */
+}
