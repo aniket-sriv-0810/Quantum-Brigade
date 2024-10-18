@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html{
+    font-size: 62.5%;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
@@ -7,25 +13,42 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
 }
 .form-container {
     background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 5rem;
+    border-top-left-radius: 8rem;
+    border-bottom-right-radius: 8rem;
+    border-bottom-left-radius: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:40rem;
+    /* height: 30rem; */
 }
 input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
+    width: 80%;
+    padding: 1.2rem;
+    margin:1.5rem;
+    text-align: center;
+    margin-left: 2.6rem;
+    font-size: 1.4rem;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 2rem;
 }
 button {
-    padding: 10px 15px;
+    padding: 1.7rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    width: 17rem;
+    position: relative;;
+    left:12rem;
     background-color: #28a745;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 2rem;
     cursor: pointer;
 }
