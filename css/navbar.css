@@ -28,7 +28,7 @@ header {
     right:10rem;
 }
 .last button {
-    width: 80%; /* Use a percentage for responsiveness */
+    width: 100%; /* Use a percentage for responsiveness */
     max-width: 16rem; /* Maintain a maximum width */
     padding: 1rem;
     border-radius: 2rem;
@@ -166,7 +166,7 @@ nav ul li a.active {
     }
 
     .nav-btn{
-        width: 7rem;
+        width: 8rem;
         padding: 0.7rem;
     }
 }
