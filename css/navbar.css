@@ -27,18 +27,36 @@ header {
     position: absolute;
     right:10rem;
 }
-.last button{
-    width: 16rem;
-    position: relative;
+.last button {
+    width: 80%; /* Use a percentage for responsiveness */
+    max-width: 16rem; /* Maintain a maximum width */
     padding: 1rem;
     border-radius: 2rem;
     background-color: #26262b;
-    animation-name : colorChange;
+    animation-name: colorChange;
     animation-duration: 3s;
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     animation-delay: 0.2s;
     animation-iteration-count: infinite;
+    margin: 0 auto; /* Center the button */
 }
+
+/* Media query for smaller devices */
+@media (max-width: 600px) {
+    .last button {
+        padding: 0.8rem; /* Adjust padding */
+        font-size: 0.9rem; /* Adjust font size */
+    }
+}
+
+/* Media query for larger devices */
+@media (min-width: 1200px) {
+    .last button {
+        padding: 1.2rem; /* Increase padding for larger screens */
+        font-size: 1.1rem; /* Increase font size */
+    }
+}
+
 .last button:hover{
     background-color: #080847;
     cursor: pointer;
