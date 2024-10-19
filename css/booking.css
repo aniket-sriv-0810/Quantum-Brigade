@@ -2,7 +2,7 @@ body
 {
     padding: 0;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position-y:2rem ;
     background-image: url('../images/bg-img.jpg');
 }
@@ -25,12 +25,16 @@ form {
     align-items: center;
     flex-wrap: wrap;
 }
-#selectbox{
+#mentor{
     width: 80%;
     padding: 1rem;
     text-align: center;
     border-radius: 20px;
 }
+#mentor:hover{
+    cursor: pointer;
+}
+
 input[type="date"]{
     width: 50%;
     padding: 1rem;
@@ -87,6 +91,7 @@ input[type="date"]{
     width: 80%;
 }
 #book-btn{
+    margin-top: 2rem;
     width: 20rem;
     padding: 2rem;
     font-size: 1.7rem;
@@ -101,4 +106,13 @@ input[type="date"]{
 
 .unavailable{
     background-color: red;
+}
+#timeSlots{
+    width:80%;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+#timeSlots:hover{
+    cursor: pointer;
+    color:green;
 }

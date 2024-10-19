@@ -28,7 +28,6 @@ selectedMentor.addEventListener('change',(x)=>{
             option.textContent = ts[s[i]];
             timeSlots.appendChild(option);
         }
-        
     }
 
 })
