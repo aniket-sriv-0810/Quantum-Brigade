@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="../css/navbar.css">
       <link rel="website icon" type="jpeg/png" href="../images/logo.png">
     <title>SLIET Mentorship - Book a Session</title>
-    <script src="../js/info.js"></script>
-     <style>
+    <style>
         body
 {
     padding: 0;
@@ -27,6 +26,7 @@ h1{
 
 /* Form styles */
 form {
+    /* margin-top: -10rem !important; */
     filter: drop-shadow(2px 2px 2px black);
     margin: 2rem;
     background-color: #e9eaeb;
@@ -131,9 +131,14 @@ input[type="date"]{
     cursor: pointer;
     color:green;
 }
-
+#book-btn a{
+    text-decoration: none;
+    color:white
+}
      </style>
    
+    <script src="../js/info.js"></script>
+
 
 </head>
 <body>
@@ -168,11 +173,11 @@ input[type="date"]{
         
             </select>
 
-
-            <label for="topic">Topic for Discussion:</label>
+<form>            <label for="topic">Topic for Discussion:</label>
             <textarea id="topic" name="topic" rows="4" required></textarea>
-
-            <button id="book-btn" type="submit">Book Session</button>
+           
+            <button id="book-btn" type="submit"> <a href="../pages/home.html">Book Session</a></button>
+        </form>
         </form>
         </div>
     </main>
@@ -180,7 +185,7 @@ input[type="date"]{
     <footer>
         <p id="head-footer">&copy; 2024 SLIET Mentorship Platform. All rights reserved. </p>
     </footer>
-    <script src="../js/info.js"></script>
+
     <script src="../js/script.js"></script>
     
 </body>

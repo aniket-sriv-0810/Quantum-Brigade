@@ -29,5 +29,4 @@ selectedMentor.addEventListener('change',(x)=>{
             timeSlots.appendChild(option);
         }
     }
-
 })
