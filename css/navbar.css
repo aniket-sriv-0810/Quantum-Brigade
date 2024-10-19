@@ -197,10 +197,10 @@ nav ul li a.active {
         font-size: 1.2rem;
     }
 
-    .nav-btn {
-        width: 7rem;
+    .last button {
+        width: 7rem !important;
         position: relative;
-        left: 2rem;
+        left: 3rem ;
         padding: 1rem;
     }
 }
