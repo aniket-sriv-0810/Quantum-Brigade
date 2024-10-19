@@ -29,6 +29,7 @@ header {
 }
 .last button{
     width: 16rem;
+    position: relative;
     padding: 1rem;
     border-radius: 2rem;
     background-color: #26262b;
@@ -146,7 +147,7 @@ nav ul li a.active {
         right: 1rem;
     }
 
-    .last button {
+    .nav-btn{
         width: 7rem;
         padding: 0.7rem;
     }
@@ -178,7 +179,7 @@ nav ul li a.active {
         font-size: 1.2rem;
     }
 
-    .last button {
+    .nav-btn {
         width: 7rem;
         position: relative;
         left: 2rem;
@@ -208,7 +209,7 @@ nav ul li a.active {
         font-size: 1.7rem;
     }
 
-    .last button {
+    .nav-btn {
         position: relative;
         left:4rem;
         width: 14rem;
@@ -233,7 +234,7 @@ nav ul li a.active {
         font-size: 1.8rem;
     }
 
-    .last button {
+    .nav-btn{
         width: 15rem;
     }
 }
@@ -254,7 +255,7 @@ nav ul li a.active {
         font-size: 1.9rem;
     }
 
-    .last button {
+    .nav-btn{
         width: 16rem;
     }
 }
