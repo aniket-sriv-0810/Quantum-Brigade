@@ -260,3 +260,50 @@ button:hover {
 .count{
     color: #DDDDDD;
 }
+
+.how-it-works {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.how-it-works li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 3rem;
+    font-family: 'Arial', sans-serif;
+}
+
+.how-it-works li i {
+    font-size: 3rem;
+    margin-right: 10px;
+    color: #007bff; /* Icon color */
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .how-it-works li {
+        font-size: 1rem;
+    }
+
+    .how-it-works li i {
+        font-size: 1.2rem;
+    }
+}
+.howh2{
+    font-size: xx-large;
+}
+.h1slietmentorship{
+    text-align: center;
+}
