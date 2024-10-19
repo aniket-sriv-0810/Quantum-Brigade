@@ -8,7 +8,12 @@ body{
     font-family: "Roboto", sans-serif;
 }
 main {
+    margin-top: 30rem !important;
+    margin-bottom: 30rem !important;
+    width: 90%;
     padding: 2rem;
+    font-family: "Roboto", sans-serif;
+    color:#565555;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -102,9 +107,15 @@ label {
 .get-started-button:hover {
     background-color: #008ecc; /* Slightly darker blue on hover */
 }
+.mentorship-info{
+    margin-top: 30rem !important;
+    margin-bottom: 30rem !important;
+    width: 90%;
+    margin-left: 5rem !important;
+}
 .mentorship-info {
     background-color: #f9f9f9; /* Light background color */
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 20px; /* Rounded corners */
     padding: 20px; /* Inner spacing */
     margin: 20px 0; /* Space above and below the div */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
@@ -122,6 +133,8 @@ label {
     margin-top: 20px; /* Space above the subheading */
     margin-bottom: 10px; /* Space below the subheading */
 }
+
+
 
 .mentorship-info p {
     color: #666; /* Text color */
@@ -200,12 +213,14 @@ label {
 }
 
 .how-it-works {
+    font-family: "Roboto", sans-serif;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .how-it-works li {
+    font-family: "Roboto", sans-serif;
     display: flex;
     align-items: center;
     margin-bottom: 15px;
@@ -241,6 +256,7 @@ h2 {
 }
 .howh2{
     font-size: xx-large;
+    text-align: center;
 }
 .h1slietmentorship{
     text-align: center;
@@ -248,6 +264,7 @@ h2 {
 @media (max-width: 350px){}
 
 @media (min-width: 351px) and (max-width: 400px) {
+
     .mentorship-info h2{
         text-align: center;
     }
