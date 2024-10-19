@@ -108,8 +108,8 @@ label {
     background-color: #008ecc; /* Slightly darker blue on hover */
 }
 .mentorship-info{
-    margin-top: 30rem !important;
-    margin-bottom: 30rem !important;
+    margin-top: 20rem !important;
+    margin-bottom: 20rem !important;
     width: 90%;
     margin-left: 5rem !important;
 }
@@ -263,8 +263,62 @@ h2 {
 }
 @media (max-width: 350px){}
 
+@media (min-width: 351px) and (max-width: 370px) {
+    .hero-section{
+        background-size: contain;
+        background-repeat: no-repeat;
+       width: 100%;
+       position: relative;
+       top:-28rem
+    }
+    .get-started-button {
+        position: relative;
+        top:39rem !important;
+        left:1rem !important;
+        width: 15rem !important;
+        height: 2.4rem !important;
+        padding: .3rem !important;
+        font-size: 1.6rem !important;
+    }
+    }
+    @media (min-width: 371px) and (max-width: 380px){
+    .hero-section{
+        background-size: contain;
+        background-repeat: no-repeat;
+       width: 100%;
+       position: relative;
+       top:-24rem
+    }
+    .get-started-button {
+        position: relative;
+        top:36rem !important;
+        left:1rem !important;
+        width: 15rem !important;
+        height: 2.4rem !important;
+        padding: .3rem !important;
+        font-size: 1.6rem !important;
+    }
+}
 @media (min-width: 351px) and (max-width: 400px) {
-
+    .hero-section{
+        background-size: contain;
+        background-repeat: no-repeat;
+       width: 100%;
+       position: relative;
+       top:-30rem
+    }
+    .get-started-button {
+        position: relative;
+        top:41rem !important;
+        left:2rem !important;
+        width: 15rem !important;
+        height: 2.4rem !important;
+        padding: .3rem !important;
+        font-size: 1.6rem !important;
+    }
+    .mentorship-info{
+        margin-left: 0 !important;
+    }
     .mentorship-info h2{
         text-align: center;
     }
@@ -304,7 +358,71 @@ h2 {
         margin-top: 3rem;
     }
 }
+@media (min-width: 401px) and (max-width: 412px){
+.hero-section{
+    background-size: contain;
+    background-repeat: no-repeat;
+   width: 100%;
+   position: relative;
+   top:-32rem !important;
+}
+.get-started-button {
+    position: relative;
+    top:45rem !important;
+    left:3rem !important;
+    width: 16rem !important;
+    height: 2.4rem !important;
+    padding: .3rem !important;
+    font-size: 1.6rem !important;
+}
+}
+@media (min-width: 413px) and (max-width: 420px){
+.hero-section{
+    background-size: contain;
+    background-repeat: no-repeat;
+   width: 100%;
+   position: relative;
+   top:-27rem !important;
+}
+.get-started-button {
+    position: relative;
+    top:40rem !important;
+    left:3rem !important;
+    width: 16rem !important;
+    height: 2.4rem !important;
+    padding: .3rem !important;
+    font-size: 1.6rem !important;
+}
+}
+@media (min-width: 422px) and (max-width: 450px){
+.hero-section{
+    background-size: contain;
+    background-repeat: no-repeat;
+   width: 100%;
+   position: relative;
+   top:-28rem !important;
+}
+.get-started-button {
+    position: relative;
+    top:42rem !important;
+    left:3rem !important;
+    width: 16rem !important;
+    height: 2.4rem !important;
+    padding: .3rem !important;
+    font-size: 1.6rem !important;
+}
+}
 @media (min-width: 401px) and (max-width: 575px){
+    .hero-section{
+        background-size: contain;
+        background-repeat: no-repeat;
+       width: 100%;
+       position: relative;
+       top:-24rem
+    }
+    .mentorship-info {
+        margin-left: 0 !important;
+    }
     .mentorship-info h2{
         text-align: center;
     }
@@ -346,6 +464,13 @@ h2 {
 }
 
 @media (min-width: 576px) and (max-width: 991px) {
+    .hero-section{
+        background-size: contain;
+        background-repeat: no-repeat;
+       width: 100%;
+       position: relative;
+       top:-24rem
+    }
     .mentorship-info h2{
         text-align: center;
     }
@@ -387,6 +512,13 @@ h2 {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .hero-section{
+        background-size: contain;
+        background-repeat: no-repeat;
+       width: 100%;
+       position: relative;
+       top:-24rem
+    }
     .mentorship-info h2{
         text-align: center;
     }
