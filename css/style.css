@@ -659,7 +659,7 @@ h2 {
     }
   }
 
-  .counter-wrapper , main , .mentorship-info{
+  .counter-wrapper , .homemain , .mentorship-info{
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;

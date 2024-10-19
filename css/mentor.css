@@ -6,8 +6,11 @@ body{
 h1{
     text-align: center;
     font-size: 40px;
+    position: relative;
+    top:-30rem;
 }
 .mentor-grid {
+    margin-top: -30rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 7rem;
