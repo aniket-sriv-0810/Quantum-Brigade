@@ -40,7 +40,6 @@ div .testimonial-card:hover{
     transform: scale(1.12);
     cursor: pointer;
     background-color: #dbebff;
-    color: #ffffff;
 }
 
 .testimonial-image {

@@ -14,7 +14,8 @@
         <p>${mentor.title}</p>
         <p>${mentor.qualification}</p>
         <p> ${mentor.email}</p>
-        <p>Specialization: ${mentor.specialization}
+        <p>Specialization: ${mentor.specialization}<br>
+        <button> <a href="../pages/booking.html">Connect</a></button>
       `;
   
       mentorGrid.appendChild(mentorCard);

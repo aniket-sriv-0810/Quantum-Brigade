@@ -51,7 +51,8 @@ h1{
     transition: all .7s ease-in-out ;
     background-color: #3f90e8;
     border: 1px solid blue;
-    color:white
+    color:white;
+    transform: scale(1.12);
 }
 .mentor-card h2{
     text-align: center;
@@ -67,4 +68,19 @@ h1{
    filter: drop-shadow(2px 2px 2px rgb(72, 72, 72));
     border-radius: 50%;
     margin-bottom: 1rem;
+}
+button{
+    width:15rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 30px;
+    background-color: rgb(168, 168, 240);
+}
+button:hover{
+    cursor: pointer;
+    background-color: green;
+}
+button a{
+    text-decoration: none;
+    color:white;
 }
