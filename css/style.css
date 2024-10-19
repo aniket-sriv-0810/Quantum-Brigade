@@ -269,7 +269,7 @@ h2 {
         background-repeat: no-repeat;
        width: 100%;
        position: relative;
-       top:-28rem
+       top:-25rem !important
     }
     .get-started-button {
         position: relative;
@@ -291,7 +291,7 @@ h2 {
     }
     .get-started-button {
         position: relative;
-        top:36rem !important;
+        top:1rem !important;
         left:1rem !important;
         width: 15rem !important;
         height: 2.4rem !important;
@@ -305,11 +305,11 @@ h2 {
         background-repeat: no-repeat;
        width: 100%;
        position: relative;
-       top:-30rem
+       top:-25rem
     }
     .get-started-button {
         position: relative;
-        top:41rem !important;
+        top:37rem !important;
         left:2rem !important;
         width: 15rem !important;
         height: 2.4rem !important;
@@ -464,12 +464,29 @@ h2 {
 }
 
 @media (min-width: 576px) and (max-width: 991px) {
+    #welcomeMessage{
+        margin-top: 8rem;
+        margin-right: 5rem;
+        font-size: 4rem;
+    }
     .hero-section{
         background-size: contain;
         background-repeat: no-repeat;
        width: 100%;
        position: relative;
-       top:-24rem
+       top:-41rem
+    }
+    .get-started-button {
+        position: relative;
+        top:68rem !important;
+        left:4rem !important;
+        width: 35rem !important;
+        height: 5rem !important;
+        padding: .7rem !important;
+        font-size: 3.3rem !important;
+    }
+    .mentorship-info {
+        margin-left: 1rem !important;
     }
     .mentorship-info h2{
         text-align: center;
@@ -512,6 +529,27 @@ h2 {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    #welcomeMessage{
+        margin-top: 8rem;
+        margin-right: 5rem;
+        font-size: 4rem;
+    }
+    .hero-section{
+        background-size: contain;
+        background-repeat: no-repeat;
+       width: 100%;
+       position: relative;
+       top:-9rem
+    }
+    .get-started-button {
+        position: relative;
+        top:51rem !important;
+        left:9rem !important;
+        width: 47rem !important;
+        height: 7rem !important;
+        padding: .7rem !important;
+        font-size: 3.3rem !important;
+    }
     .hero-section{
         background-size: contain;
         background-repeat: no-repeat;
@@ -560,6 +598,27 @@ h2 {
 }
 
 @media (min-width: 1200px){
+    #welcomeMessage{
+        margin-top: 8rem;
+        margin-right: 5rem;
+        font-size: 4rem;
+    }
+    .hero-section{
+        background-size: contain;
+        background-repeat: no-repeat;
+       width: 100%;
+       position: relative;
+       top:-2rem
+    }
+    .get-started-button {
+        position: relative;
+        top:52rem !important;
+        left:9rem !important;
+        width: 55rem !important;
+        height: 7rem !important;
+        padding: .7rem !important;
+        font-size: 3.3rem !important;
+    }
     .mentorship-info h2{
         text-align: center;
     }
