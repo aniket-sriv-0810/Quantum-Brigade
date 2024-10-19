@@ -31,11 +31,17 @@ header {
     width: 16rem;
     padding: 1rem;
     border-radius: 2rem;
+    background-color: #26262b;
     animation-name : colorChange;
     animation-duration: 3s;
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     animation-delay: 0.2s;
     animation-iteration-count: infinite;
+}
+.last button:hover{
+    background-color: #080847;
+    cursor: pointer;
+    color:#fbbf24
 }
 @keyframes colorChange{
     0%{
