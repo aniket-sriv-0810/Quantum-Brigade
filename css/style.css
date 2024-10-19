@@ -450,3 +450,49 @@ h2 {
         margin-top: 3rem;
     }
 }
+.footer {
+    background-color: #282c34;
+    padding: 20px 0;
+    color: #fff;
+    position: relative;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between; /* Ensure content is pushed to the ends */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .footer-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icon {
+    margin-left: 20px;
+  }
+  
+  .social-icon .icon {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+  }
+  
+  .social-icon:hover .icon {
+    fill: #1da1f2; /* Customize per icon, LinkedIn blue shown */
+  }
+  
