@@ -6,7 +6,7 @@ const mentors = [
       phone: "+91-1672-253208",
       email: "birmohansingh@sliet.ac.in, birmohans@gmail.com",
       specialization: "Medical Image Processing , Signal Processing, Machine Learning",
-      image: "http://sliet.ac.in/wp-content/uploads/avatars/5/6fc17d6735998f4f22a0e91fbf43b75c-bpfull.jpg",
+      image: "../images/teacher images/1.jpg",
       timeSlot: ["a", "b", "c"]
     },
     {
@@ -16,7 +16,7 @@ const mentors = [
       phone: "+91-1672-253210",
       email: "damanpreets@sliet.ac.in",
       specialization: "Machine Learning, Wireless Sensor Networks, Optimization Techniques, Cloud Computing",
-      image: "http://sliet.ac.in/wp-content/uploads/avatars/4/65783e7db0473-bpfull.jpg",
+      image: "../images/teacher images/2.jpg",
       timeSlot: ["b", "c", "d"]
     },
     {
@@ -26,7 +26,7 @@ const mentors = [
       phone: "01672-253212",
       email: "mjrsingh@yahoo.com",
       specialization: "Green Computing, Cloud computing, Distributed Systems, IOT and Machine Learning",
-      image: "http://sliet.ac.in/wp-content/uploads/avatars/35/5e69c6be20c7e-bpfull.jpg",
+      image: "../images/teacher images/3.jpg",
       timeSlot: ["c", "d", "e"]
     },
     {
@@ -36,7 +36,7 @@ const mentors = [
       phone: "+91-1672-253214",
       email: "manojsachan@sliet.ac.in, manojsachan@gmail.com",
       specialization: "Data Mining, Machine Learning",
-      image: "http://sliet.ac.in/wp-content/uploads/avatars/6/605c66bd3e3bc-bpfull.jpg",
+      image: "../images/teacher images/4.jpg",
       timeSlot: ["d", "e", "f"]
     },
     {
@@ -46,7 +46,7 @@ const mentors = [
       phone: "+91-1672-253326",
       email: "gurjinder13@yahoo.com",
       specialization: "Data Mining, Machine Learning",
-      image: "http://sliet.ac.in/wp-content/uploads/avatars/14/5f2245e7a7f1bde5dee5bda48e09d411-bpfull.jpg",
+      image: "../images/teacher images/5.jpg",
       timeSlot: ["a", "b", "d"]
     },
     {
@@ -56,7 +56,7 @@ const mentors = [
       phone: "01672-253610",
       email: "amarnath@sliet.ac.in",
       specialization: "Artificial Intelligence, Distributed Algorithms,  Internet of Robotics Things (IoRT),  Formal Verification, Multi-UAVs, Precision Agriculture",
-      image: "http://sliet.ac.in/wp-content/uploads/avatars/467/66b8bb350cc46-bpfull.jpg",
+      image: "../images/teacher images/6.jpg",
       timeSlot: ["b", "c", "f"]
     },
     {
@@ -66,7 +66,7 @@ const mentors = [
       phone: "01672-253320",
       email: "jagdeep@sliet.ac.in; jagdeepknit@gmail.com",
       specialization: "Artificial Intelligence, Cyber Security, Wireless Networks, Internet of Things",
-      image: "http://sliet.ac.in/wp-content/uploads/avatars/466/66f81ca30f4ff-bpfull.jpg",
+      image: "../images/teacher images/7.jpg",
       timeSlot: ["a", "c", "e"]
     },
     {
@@ -76,7 +76,7 @@ const mentors = [
       phone: "+91-01672-253328",
       email: "manminderldh@gmail.com, manmindersingh@sliet.ac.in",
       specialization: "Digital Image Processing, Pattern Recognition, Biometrics, Artificial Intelligence , Machine Learning",
-      image: "http://sliet.ac.in/wp-content/uploads/avatars/16/66693282b6269-bpfull.jpg",
+      image: "../images/teacher images/8.jpg",
       timeSlot: ["b", "d", "e"]
     },
     {
@@ -86,7 +86,7 @@ const mentors = [
       phone: "01672-253614",
       email: "preetpal@sliet.ac.in",
       specialization: "Image Processing, Remote Sensing, Pattern Recognition, Deep Learning, Natural Language Processing",
-      image: "http://sliet.ac.in/wp-content/uploads/avatars/349/632d98c75d80f-bpfull.jpg",
+      image: "../images/teacher images/9.jpg",
       timeSlot: ["c", "e", "f"]
     },
     {
@@ -96,7 +96,7 @@ const mentors = [
       phone: "91-6283963279",
       email: "tajindersingh@sliet.ac.in",
       specialization: "Artificial Intelligence, Machine Learning, Text Analytics,  Online Social Text Stream Analysis , E-Commerce",
-      image: "http://sliet.ac.in/wp-content/uploads/avatars/468/64e3532d30fac-bpfull.jpg",
+      image: "../images/teacher images/9.jpg",
       timeSlot: ["a", "b", "c"]
     },
     {
@@ -106,7 +106,7 @@ const mentors = [
       phone: "+91-1672-253218",
       email: "vinod5881@gmail.com",
       specialization: "Data Mining, Machine Learning",
-      image: "http://sliet.ac.in/wp-content/uploads/avatars/493/6165aace595a1-bpfull.jpg",
+      image: "../images/teacher images/10.jpg",
       timeSlot: ["d", "e", "f"]
     },
     {
